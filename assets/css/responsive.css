@@ -1,0 +1,203 @@
+@media screen and (min-width: 318px){
+    .ik-slider-heading h1{
+        font-size: 18px;
+    }
+    .ik-slider-heading h2{
+        font-size: 22px;
+    }
+    .ik-service-text h3{
+        font-size: 22px;
+    }
+    .ik-service-text p{
+        font-size: 15px;
+    }
+    .ik-service-icon{
+        width: 170px;
+        height: 170px;
+    }
+    .ik-service-icon i{
+        width: 110px;
+        height: 110px;
+    }
+    .ik-heading{
+        margin-bottom: 0px !important;
+    }
+    .ik-heading h2{
+        font-size: 30px;
+    }
+    .ik-service-text{
+        margin-top: 10px !important;
+    }
+    .ik-service-text p{
+        margin-top: 10px !important;
+    }
+    .ik-interior-video iframe{
+        width: 100%;
+        height: 180px;
+    }
+    .ik-choose-icon{
+        width: 170px;
+        height: 170px;
+    }
+    .ik-choose-icon-1{
+        width: 110px;
+        height: 110px;
+    }
+    .ik-footer-part p{
+        font-size: 11px !important;
+    }
+    .ik-footer-part h5{
+        font-size: 16px !important;
+    }
+    .ik-footer-part ul li{
+        padding: 0px 0px !important;
+    }
+    .ik-footer-part ul li a{
+        font-size: 11px !important;
+    }
+    .ik-footer-part ul li a i{
+        margin-right: 5px;
+        font-size: 12px;
+    }
+    .ik-popular-car p{
+        font-size: 14px !important;
+        margin-bottom: 0px !important;
+    }
+    .ik-contact-heading{
+        padding-left: 0px !important;
+        margin-left: 50px !important;
+    }
+    .ik-contact-heading h1{
+        font-size: 30px !important;
+    }
+    .contact-cover{
+        height: 300px;
+    }
+    .bg-dark{
+        padding-left: 0px !important;
+    }
+}
+@media screen and (min-width: 423px){
+    .ik-slider-heading h1{
+        font-size: 24px;
+    }
+    .ik-slider-heading h2{
+        font-size: 30px;
+    }
+    .ik-heading h2{
+        font-size: 30px;
+        margin-bottom: -100px !important;
+    }
+    .ik-heading-border{
+        margin-top: 100px !important;
+    }
+    .ik-popular-car img{
+        width: 100% !important;
+    }
+}
+@media screen and (min-width: 766px){
+    .ik-slider-heading h1{
+        font-size: 35px;
+    }
+    .ik-slider-heading h2{
+        font-size: 50px;
+    }
+    .ik-heading{
+        margin-bottom: 30px !important;
+    }
+    .ik-service-text{
+        margin-top: 30px !important;
+    }
+    .ik-service-text p{
+        margin-top: 30px !important;
+    }
+    .ik-interior-video iframe{
+        width: 100%;
+        height: 300px;
+    }
+    .ik-footer-part p{
+        font-size: 15px !important;
+    }
+    .ik-footer-part h5{
+        font-size: 20px !important;
+    }
+    .ik-footer-part ul li{
+        padding: 4px 0px !important;
+    }
+    .ik-footer-part ul li a{
+        font-size: 15px !important;
+    }
+    .ik-footer-part ul li a i{
+        margin-right: 8px;
+        font-size: 16px;
+    }
+    .ik-popular-car p{
+        font-size: 14px !important;
+        margin-bottom: 0px !important;
+    }
+    .ik-contact-heading h1{
+        font-size: 50px !important;
+    }
+    .contact-cover{
+        height: 600px;
+    }
+}
+@media screen and (min-width: 1022px){
+    .ik-slider-heading h1{
+        font-size: 50px;
+    }
+    .ik-slider-heading h2{
+        font-size: 70px;
+    }
+    .ik-service-text h3{
+        font-size: 30px;
+    }
+    .ik-service-text p{
+        font-size: 20px;
+    }
+    .ik-heading h2{
+        font-size: 40px;
+    }
+    .ik-heading p{
+        font-size: 20px;
+    }
+    .ik-interior-video iframe{
+        width: 100%;
+        height: 500px;
+    }
+    .ik-service-icon{
+        width: 210px;
+        height: 210px;
+    }
+    .ik-service-icon i{
+        width: 150px;
+        height: 150px;
+    }
+    .ik-choose-icon{
+        width: 210px;
+        height: 210px;
+    }
+    .ik-choose-icon-1{
+        width: 150px;
+        height: 150px;
+    }
+    .ik-footer-part p{
+        font-size: 17px !important;
+    }
+    .ik-footer-part h5{
+        font-size: 22px !important;
+    }
+    .ik-footer-part ul li a{
+        font-size: 17px !important;
+    }
+    .ik-popular-car p{
+        font-size: 14px !important;
+        margin-bottom: 0px !important;
+    }
+    .contact-cover{
+        height: 830px;
+    }
+    .ik-contact-heading h1{
+        font-size: 80px !important;
+    }
+}

@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Home</title>
+
+    <!-- Tab icon -->
+    <link rel="icon" href="assets/img/tab-icon.png"/>
+
+    <!-- Bootstrap link -->
+    <link rel="stylesheet" 
+    href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" 
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" 
+    crossorigin="anonymous"/>
+
+    <!-- Font Aweosme link -->
+    <link rel="stylesheet" href="assets/css/all.min.css"/>
+
+    <!-- CSS style link -->
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css"/>
+
+    <!-- Responsive style link -->
+    <link rel="stylesheet" href="assets/css/responsive.css" type="text/css"/>
+</head>
+<body>
+    <!-- Start header -->
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="navbar navbar-expand-lg navbar-light">
+                        <a class="navbar-brand" href="index.html"><img src="assets/img/logo.png" alt="Site logo" class="img-fluid"/></a>
+                        <button class="navbar-toggler ik-nav-bar" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span>
+                        </button>
+                      
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                          <ul class="navbar-nav ml-auto ik-nav">
+                            <li class="nav-item active ik-active">
+                              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item dropdown">
+                              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Models
+                              </a>
+                              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="bmwx.html">BMW Seria X</a>
+                                <a class="dropdown-item" href="bmwm.html">BMW Seria M</a>
+                                <a class="dropdown-item" href="bmw1-8.html">BMW Seria 1-8</a>
+                              </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="accessories.html">Accessories</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact</a>
+                            </li>
+                          </ul>
+                          <form class="form-inline my-2 my-lg-0">
+                            <input class="form-control mr-sm-2 ik-search-tb rounded-0" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn ik-search-btn my-2 my-sm-0" type="submit">Search</button>
+                          </form>
+                        </div>
+                      </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- End header -->
+
+    <!-- Start slider -->
+    <section>
+        <div class="container-fluid ik-slider-container">
+            <div class="col-12 ik-slider-col">
+                <div id="carouselExampleIndicators" class="carousel slide ik-slider" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                      <li data-target="#carouselExampleIndicators" data-interval="2000" data-slide-to="0" class="active"></li>
+                      <li data-target="#carouselExampleIndicators" data-interval="2000" data-slide-to="1"></li>
+                      <li data-target="#carouselExampleIndicators" data-interval="2000" data-slide-to="2"></li>
+                    </ol>
+                    
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="assets/img/bmw-x-slider-1.jpg" class="d-block w-100" alt="BMW Seria X slider"/>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="assets/img/bmw-x-slider-2.jpg" class="d-block w-100" alt="BMW Seria X slider"/>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="assets/img/bmw-x-slider-3.jpg" class="d-block w-100" alt="BMW Seria X slider">
+                      </div>
+                    </div>
+                    <div class="ik-slider-heading text-white font-weight-bolder text-center ik-color-dark">
+                        <h1 class="text-capitalize">Choose your dream car</h1>
+                        <h2 class="text-uppercase">bmw x</h2>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+            </div>
+        </div>
+    </section>
+    <!-- End slider -->
+
+    <!-- Start main -->
+    <main>
+        <!-- Start section BMW X offer -->
+        <section class="py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 ik-heading text-center mb-5">
+                        <h2>BMW Seria X</h2>
+                        <span class="ik-heading-border"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-4 ik-popular-car text-center">
+                        <img src="assets/img/bmw-car-seria-x1.jpg" alt="Car model M" class="img-fluid"/>
+                            <div class="ik-popular-heading shadow">
+                                <h5 class="text-capitalize">New model X1</h5>
+                                
+                            </div>
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn ik-search-btn ik-popular-btn" data-toggle="modal" data-target="#staticBackdrop1">
+                                Learn More
+                            </button>
+                            
+                            <!-- Modal -->
+                            <div class="modal fade" id="staticBackdrop1" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-scrollable">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                    <h5 class="modal-title" id="staticBackdropLabel">BMW X1</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                    </div>
+                                    <div class="modal-body">
+                                    <h4>About</h4>
+                                    <p>Milestones are ahead of us: the new BMW X1 has come 
+                                        to set new standards. His readiness for action is 
+                                        seen primarily in athletic design. At first glance, 
+                                        it is an X model from start to finish: its exterior is 
+                                        characterized by short overhangs and a long wheelbase 
+                                        typical of the SAV (Sports Active Vehicle). This makes 
+                                        his ambitions clear with convincing dynamism and agility. 
+                                        And thanks to its high versatility and flexibility combined 
+                                        with innovative technologies, it ensures maximum comfort on 
+                                        every meter of driving.</p>
+                                    <h4>Price</h4>
+                                    <p>29,900&#8364;</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                    <button type="button" class="btn ik-search-btn" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 ik-popular-car text-center">
+                        <img src="assets/img/bmw-car-seria-x2.jpg" alt="Car model M" class="img-fluid"/>
+                            <div class="ik-popular-heading shadow">
+                                <h5 class="text-capitalize">New model X2</h5>
+                                
+                            </div>
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn ik-search-btn ik-popular-btn" data-toggle="modal" data-target="#staticBackdrop2">
+                                Learn More
+                            </button>
+                            
+                            <!-- Modal -->
+                            <div class="modal fade" id="staticBackdrop2" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-scrollable">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                    <h5 class="modal-title" id="staticBackdropLabel">BMW X2</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                    </div>
+                                    <div class="modal-body">
+                                    <h4>About</h4>
+                                    <p>
+                                    Absolutely unique. Extremely exceptional. 
+                                    The new BMW X2 clearly shows sporting ambi
+                                    tions at first glance. Thanks to his bold 
+                                    athletic build, he brings dynamic and agile
+                                     performances that are unmatched in this c
+                                     lass. Together with a high quality interi
+                                     or and many innovative technologies, he i
+                                     s an extrovert protagonist of the new age
+                                     . Are you ready?<br/><br/>
+                                    BMW X2 xDrive20d:
+                                    Fuel consumption in l / 100 km (combined): 4.8–4.6
+                                    CO2 emissions in g / km (combined): 126–121
+                                    </p>
+                                    <h4>Price</h4>
+                                    <p>31,600&#8364;</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                    <button type="button" class="btn ik-search-btn" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 ik-popular-car text-center">
+                        <img src="assets/img/bmw-car-seria-x3.jpg" alt="Car model M" class="img-fluid"/>
+                            <div class="ik-popular-heading shadow">
+                                <h5 class="text-capitalize">New model X3</h5>
+                                
+                            </div>
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn ik-search-btn ik-popular-btn" data-toggle="modal" data-target="#staticBackdrop3">
+                                Learn More
+                            </button>
+                            
+                            <!-- Modal -->
+                            <div class="modal fade" id="staticBackdrop3" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-scrollable">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                    <h5 class="modal-title" id="staticBackdropLabel">BMW X3</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                    </div>
+                                    <div class="modal-body">
+                                    <h4>About</h4>
+                                    <p>
+                                        BMW X3 xDrive30e:
+                                        Fuel consumption in l / 100 km (average): 3.2
+                                        CO2 emissions in g / km (combined): 73<br/><br/>
+
+                                        BMW X3 xDrive30i:
+                                        Fuel consumption in l / 100 km (combined): 7.9
+                                        CO2 emissions in g / km (combined): 180<br/><br/>
+
+                                        BMW X3 M40i:
+                                        Fuel consumption in l / 100 km (average): 8.9
+                                        CO2 emissions in g / km (average): 204
+                                    </p>
+                                    <h4>Price</h4>
+                                    <p>46,500&#8364;</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                    <button type="button" class="btn ik-search-btn" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 ik-popular-car text-center">
+                        <img src="assets/img/bmw-car-seria-x4.jpg" alt="Car model M" class="img-fluid"/>
+                            <div class="ik-popular-heading shadow">
+                                <h5 class="text-capitalize">New model X4</h5>
+                                
+                            </div>
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn ik-search-btn ik-popular-btn" data-toggle="modal" data-target="#staticBackdrop4">
+                                Learn More
+                            </button>
+                            
+                            <!-- Modal -->
+                            <div class="modal fade" id="staticBackdrop4" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-scrollable">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                    <h5 class="modal-title" id="staticBackdropLabel">BMW X4</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                    </div>
+                                    <div class="modal-body">
+                                    <h4>About</h4>
+                                    <p>
+                                        BMW X4 xDrive30i:
+                                        Fuel consumption in l / 100 km (combined): 8.5–7.5
+                                        CO2 emissions in g / km (combined): 193–171
+
+                                        <br/><br/>
+
+                                        BMW X4 M40i:
+                                        Fuel consumption in l / 100 km (combined): 9.5–8.7
+                                        CO2 emissions in g / km (average): 216–198
+                                    </p>
+                                    <h4>Price</h4>
+                                    <p>55,100&#8364;</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                    <button type="button" class="btn ik-search-btn" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 ik-popular-car text-center">
+                        <img src="assets/img/bmw-car-seria-x5.jpg" alt="Car model M" class="img-fluid"/>
+                            <div class="ik-popular-heading shadow">
+                                <h5 class="text-capitalize">New model X5</h5>
+                                
+                            </div>
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn ik-search-btn ik-popular-btn" data-toggle="modal" data-target="#staticBackdrop5">
+                                Learn More
+                            </button>
+                            
+                            <!-- Modal -->
+                            <div class="modal fade" id="staticBackdrop5" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-scrollable">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                    <h5 class="modal-title" id="staticBackdropLabel">BMW X5</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <h4>About</h4>
+                                        <p>
+                                            The boss is here to show every
+                                            one where they belong: the all
+                                            -new BMW X5. His presence is 
+                                            obvious and clear - upright, 
+                                            powerful and elegant. The pow
+                                            erful one-piece front grille
+                                             indicates what will happen 
+                                             when you take a deep breath.
+                                              The redesigned X headlight 
+                                              design leaves no dilemma as
+                                               to who will take the lead. E
+                                               quipped with new technologi
+                                               es for greater safety and m
+                                               aximum driving dynamics on 
+                                               every surface, the new BMW 
+                                               X5 knows where it is heade
+                                               d. And how to get there fi
+                                               rst.<br/><br/>
+
+
+                                            BMW X5 xDrive40i
+                                            Fuel consumption in l / 100 km (combined): 9.1–8.5
+                                            CO2 emissions in g / km (combined): 207–193
+                                        </p>
+                                        <h4>Price</h4>
+                                        <p>71,700&#8364;</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                    <button type="button" class="btn ik-search-btn" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 ik-popular-car text-center">
+                        <img src="assets/img/bmw-car-seria-x6.jpg" alt="Car model M" class="img-fluid"/>
+                            <div class="ik-popular-heading shadow">
+                                <h5 class="text-capitalize">New model X6</h5>
+                                
+                            </div>
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn ik-search-btn ik-popular-btn" data-toggle="modal" data-target="#staticBackdrop6">
+                                Learn More
+                            </button>
+                            
+                            <!-- Modal -->
+                            <div class="modal fade" id="staticBackdrop6" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-scrollable">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                    <h5 class="modal-title" id="staticBackdropLabel">BMW X6</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <h4>About</h4>
+                                        <p>
+                                            BMW X6 M Competition, BMW X6 M, BMW X6 M50i and BMW X6 M50d.<br/><br/>
+
+                                            Superiority on every surface: the BMW X6 M The cars prove their 
+                                            extroverted dominance and outstanding driving dynamics, with the
+                                            ir expressive M design and unrivaled agility. Experience four ex
+                                            troverted Sports Activity Coupés (SAC): the BMW X6 M50i and BMW 
+                                            X6 M50d impress with their unique combination of performance, com
+                                            fort and efficiency. The BMW X6 M with the M xDrive option inspir
+                                            es a luxurious interior and driving dynamics defined by racing ge
+                                            nes. The adrenaline-fueled driving experience gets another boost 
+                                            in the even more powerful and up-and-coming BMW X6 M competition w
+                                            ith the M xDrive option.<br/><br/>
+
+                                            BMW X6 M Competition:
+                                            Fuel consumption in l / 100 km (combined): 12.7-12.5
+                                            CO2 emissions in g / km (combined): 289-284<br/><br/>
+
+                                            BMW X6 M:
+                                            Fuel consumption in l / 100 km (combined): 12.7-12.5
+                                            CO2 emissions in g / km (combined): 289-284<br/><br/>
+
+                                            BMW X6 M50i:
+                                            Fuel consumption in l / 100 km (combined): 10.7-10.4
+                                            CO2 emissions in g / km (combined): 243-237<br/><br/>
+
+                                            BMW X6 M50d:
+                                            Fuel consumption in l / 100 km (combined): 7.2-6.9
+                                            CO2 emissions in g / km (combined): 190-181<br/><br/>
+                                        </p>
+                                        <h4>Price</h4>
+                                        <p>160,700&#8364;</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                    <button type="button" class="btn ik-search-btn" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </section> 
+        <!-- End section -->
+    </main>
+    <!-- End main -->
+
+    <!-- Start footer -->
+    <footer>
+        <section class="ik-footer-1 py-5 text-white ik-bg-dark-blue">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-3 ik-footer-part">
+                        <img src="assets/img/logo-footer-1.png" alt="Footer logo" class="img-fluid d-block mx-auto"/>
+                        <p class="mt-4">Dive into these new worlds with us, get inspired, 
+                            and experience something new, unusual and helpful 
+                            every day. At BMW.com – our digital interpretation 
+                            of the sheer pleasure of driving.</p>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3 ik-footer-part">
+                        <h5 class="text-capitalize">Quick links</h5>
+                        <ul>
+                            <li><a href="index.html"><i class="fas fa-angle-right"></i>Home</a></li>
+                            <li><a href="bmmx.html"><i class="fas fa-angle-right"></i>BMW X</a></li>
+                            <li><a href="bmwm.html"><i class="fas fa-angle-right"></i>BMW M</a></li>
+                            <li><a href="bmw1-8.html"><i class="fas fa-angle-right"></i>BMW Seria 1-8</a></li>
+                            <li><a href="accessories.html"><i class="fas fa-angle-right"></i>Accessories</a></li>
+                            <li><a href="contact.html"><i class="fas fa-angle-right"></i>Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3 ik-footer-part">
+                        <h5 class="text-capitalize">Newsletter</h5>
+                        <p class="my-4">Subscribe on our page to get new update
+                            and content. Stay tuned with us.
+                        </p>
+                        <div class="form-group">
+                            <input type="email" name="tbEmail" id="tbEmail" class="form-control rounded-0">
+                        </div>
+                        <div class="form-group">
+                            <input type="button" value="Submit" class="text-left ik-service-btn">
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3 ik-footer-part">
+                        <h5 class="text-capitalize">Visit us on</h5>
+                        <ul>
+                            <li><a href="#"><i class="fab fa-facebook"></i>Facebook</a></li>
+                            <li><a href="#"><i class="fab fa-instagram"></i>Instagram</a></li>
+                            <li><a href="#"><i class="fab fa-twitter-square"></i>Twitter</a></li>
+                            <li><a href="#"><i class="fab fa-youtube-square"></i>You Tube</a></li>
+                        </ul>
+                    </div>
+                </div>    
+            </div>
+        </section> 
+        <section class="ik-footer-2 ik-bg-light-blue-blue">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-white text-center">
+                        <p class="mt-3">&copy;Copyrights 2021 Designed by Ignjat Koicki</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+    <!-- End footer -->
+
+
+    <!-- Bootstrap java script -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" 
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" 
+    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" 
+    crossorigin="anonymous"></script>
+</body>
+</html>

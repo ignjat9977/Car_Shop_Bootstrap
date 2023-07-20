@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+:root{
+    --ikDark: #000000;
+    --ikBlue: #47a9ce;
+    --ikWhite: #ffffff;
+    --ikLightBlueBlue: #0096c7;
+    --ikLightBlue: #caf0f8;
+    --ikDarkBlue: #023e8a;
+    --ikLightGrey: #f0efeb;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.ik-color-blue{
+    color:var(--ikBlue) !important;
+}
+.ik-color-dark{
+    color:var(--ikDark) !important;
+}
+.ik-bg-light-blue{
+    background-color: var(--ikLightBlue) !important;
+}
+.ik-bg-dark-blue{
+    background-color: var(--ikDarkBlue);
+}
+.ik-bg-light-blue-blue{
+    background-color: var(--ikLightBlueBlue);
+}
+.ik-bg-light-grey{
+    background-color: var(--ikLightGrey);
+}
+.ik-nav .ik-active a{
+    color: var(--ikBlue) !important;
+}
+.ik-nav li a{
+    color: var(--ikDark) !important;
+}
+.ik-nav-bar{
+    border-color: 1px solid var(--ikDark) !important;
+}
+.ik-nav-bar span{
+    color:var(--ikDark) !important;
+}
+.ik-search-tb{
+    width: 200px !important;
+    color:var(--ikDark) !important;
+    border: 1px solid var(--ikDark) !important;
+}
+.ik-search-btn{
+    border-radius: 0px !important;
+    background-color: var(--ikBlue) !important;
+    color: var(--ikWhite) !important;
+    padding-right: 30px;
+    clip-path: polygon(0 0, 100% 0%, 75% 100%, 0% 100%);
+}
+.ik-search-btn:hover{
+    border: 1px solid var(--ikBlue);
+    background-color: var(--ikBlue);
+    color: var(--ikWhite);
+}
+.ik-slider{
+    position: relative;
+}
+.ik-slider-heading{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    right: 10%;
+}
+.ik-slider-col, .ik-slider-container{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+.ik-heading h2{
+    font-size: 50px;
+}
+.ik-heading-border{
+    height: 3px;
+    display: block;
+    margin: 15px auto;
+    background-color: var(--ikBlue);
+    width: 100px;
+}
+.ik-service-icon{
+    width: 210px;
+    height: 210px;
+    margin: 0px auto;
+    background-color: var(--ikBlue);
+    border-radius: 50%;
+    border: 3px solid var(--ikBlue);
+    transition: 1s;
+}
+.ik-service-icon i{
+    width: 150px;
+    height: 150px;
+    background-color: var(--ikWhite);
+    border-radius: 50%;
+    font-size: 40px;
+    color: var(--ikBlue);
+    transition: 1s;
+}
+.ik-service-icon:hover{
+    background-color: var(--ikWhite);
+}
+.ik-service-icon i:hover{
+    background-color: var(--ikBlue) !important;
+    color:var(--ikWhite);
+}
+.ik-service-btn{
+    border: 2px solid var(--ikBlue) !important;
+    background-color: var(--ikBlue);
+    color: var(--ikWhite) !important;
+    border-radius: 0 !important;
+    clip-path: polygon(0 0, 100% 0%, 75% 100%, 0% 100%);
+    padding-right: 30px;
+}
+.ik-popular-car{
+    position: relative;
+}
+.ik-popular-btn{
+    position: absolute;
+    top: 0;
+    left: 15px;
+}
+.ik-popular-heading{
+    background-color: var(--ikWhite);
+    width: 80%;
+    margin: 0px auto;
+    position: relative;
+    top: -20px;
+    font-size: 20px;
+    padding: 10px;
+}
+.ik-choose-icon{
+    margin: 0px auto;
+    background-color: var(--ikBlue);
+    border-radius: 50%;
+    border: 3px solid var(--ikBlue);
+    transition: 1s;
+}
+.ik-choose-icon-1{
+    background-color: var(--ikWhite);
+    border-radius: 50%;
+    font-size: 40px;
+    color: var(--ikBlue);
+    transition: 1s;
+}
+.ik-choose-icon:hover{
+    background-color: var(--ikWhite);
+}
+.ik-choose-icon-1:hover{
+    background-color: var(--ikBlue) !important;
+    color:var(--ikWhite);
+}
+.ik-footer-part h5{
+    margin-top: 20px;
+    border-bottom: 2px solid var(--ikBlue);
+    padding-bottom: 10px;
+}
+.ik-footer-part ul{
+    list-style-type: none;
+    padding: 0px !important;
+}
+.ik-footer-part ul li{
+    padding: 6px 0px;
+}
+.ik-footer-part ul li a{
+    color:var(--ikWhite) !important;
+}
+.ik-footer-part ul li a i{
+    margin-right: 10px;
+    font-size: 20px;
+}
+.ik-heading-slider{
+    color:var(--ikBlue) !important;
+}
+.ik-slider-heading-1{
+    color:var(--ikBlue) !important;
+}
+.contact-cover{
+    background: url('../img/contactus-cover.jpg') no-repeat;
+    height: 830px;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+.bg-dark{
+    background-color: var(--ikDark);
+    height: inherit;
+    opacity: 0.8;
+}
+.ik-contact-form textarea{
+    border-radius: 0px !important;
+}
+.ik-contact-form-info ul{
+    list-style-type: none;
+}
+.ik-contact-form-info ul li {
+    padding: 3px;
+}
+.ik-map iframe{
+    width: 100%;
+    height: 350px;
+}
